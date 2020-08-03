@@ -3,7 +3,7 @@
   "private": true,
   "version": "4.6.0",
   "description": "A test fixture",
-  "main": "rplugin/node/test/index.js",
+  "main": "rplugin/node/test/lib/index.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.json"
