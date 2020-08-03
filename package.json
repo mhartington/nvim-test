@@ -1,0 +1,19 @@
+{
+  "name": "@neovim/example-plugin",
+  "private": true,
+  "version": "4.6.0",
+  "description": "A test fixture",
+  "main": "rplugin/node/test/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@neovim/decorators": "^4.9.0",
+    "tslib": "^2.0.0"
+  }
+}
